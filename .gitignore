@@ -1,15 +1,77 @@
+# =========================
+# Gradle
+# =========================
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Gradle cache
+.gradle-cache/
+
+# =========================
+# Android Studio / IntelliJ
+# =========================
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+*.ipr
+*.iws
+
+# Android Studio local files
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# =========================
+# Local configuration
+# =========================
 local.properties
+
+# =========================
+# Kotlin
+# =========================
+.kotlin/
+
+# =========================
+# Build outputs
+# =========================
+*.apk
+*.aab
+*.ap_
+
+# =========================
+# Native build
+# =========================
+.externalNativeBuild/
+.cxx/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Android captures
+# =========================
+captures/
+
+# =========================
+# Secrets / environment
+# =========================
+.env
+*.keystore
+*.jks
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
